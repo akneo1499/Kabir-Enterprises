@@ -10802,9 +10802,8 @@ textarea.form-control {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
-.info-wrap .dbox .icon span {
-  font-size: 20px;
-  color: #000;
+.info-wrap .dbox .icon i {
+  color: rgb(122, 118, 244);
 }
 .info-wrap .dbox .text {
   width: calc(100% - 50px);
