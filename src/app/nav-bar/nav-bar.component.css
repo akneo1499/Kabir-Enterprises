@@ -20,3 +20,8 @@
     
 }
 
+span .navbar-toggler-icon {
+    background-image: url('../../assets/icons8-menu.svg') !important;
+    cursor: pointer;
+}
+
