@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;}
 
 .dashboard-container{
     position: relative;
@@ -37,15 +31,13 @@
 
 h3{
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 800;
     background-color: rgb(29 20 175 / 70%);
     margin: 36px auto;
     padding: 8px 30px;
     color: #e5e5e5;
     border-top: 3px solid #e5e5e5;
     border-bottom: 3px solid #e5e5e5;
-    width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
     border-radius: 5px;
     box-shadow: 0 0 20px 1px #888;
