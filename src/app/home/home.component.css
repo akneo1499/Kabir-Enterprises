@@ -32,7 +32,8 @@
 h3{
     font-size: 28px;
     font-weight: 800;
-    background-color: rgb(29 20 175 / 70%);
+    /* background-color: rgb(29 20 175 / 70%); */
+    background: linear-gradient(rgb(4, 67, 139), rgba(45, 2, 80, 0.8));
     margin: 5% auto;
     padding: 8px 30px;
     color: #e5e5e5;
