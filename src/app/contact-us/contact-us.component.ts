@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms";
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 @Component({
   selector: "app-contact-us",
@@ -22,18 +22,18 @@ export class ContactUsComponent implements OnInit {
   }
 
   public sendEmail(event) {
-    const serviceID = 'service_9g9kqie';
-    const templateID = 'template_t21wn6j';
-    const userID = 'user_sfneCMb69WYyr36OTf92K'
-    emailjs.send(serviceID, templateID, event, userID)
-    .then((response) => {
-      console.log('SUCCESS!', response.status, response.text);
-      alert("Message sent successfully.");
-      this.FormData.reset();
-   }, (err) => {
-      console.log('FAILED...', err);
-      alert("Failed to send the message.")
-   });
+  //   const serviceID = 'service_9g9kqie';
+  //   const templateID = 'template_t21wn6j';
+  //   const userID = 'user_sfneCMb69WYyr36OTf92K'
+  //   emailjs.send(serviceID, templateID, event, userID)
+  //   .then((response) => {
+  //     console.log('SUCCESS!', response.status, response.text);
+  //     alert("Message sent successfully.");
+  //     this.FormData.reset();
+  //  }, (err) => {
+  //     console.log('FAILED...', err);
+  //     alert("Failed to send the message.")
+  //  });
   }
 
 
