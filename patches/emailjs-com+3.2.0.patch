@@ -1,0 +1,35 @@
+diff --git a/node_modules/emailjs-com/es/index.d.ts b/node_modules/emailjs-com/es/index.d.ts
+index de02d50..b3f1781 100644
+--- a/node_modules/emailjs-com/es/index.d.ts
++++ b/node_modules/emailjs-com/es/index.d.ts
+@@ -1,8 +1,8 @@
+-import type { EmailJSResponseStatus } from './models/EmailJSResponseStatus';
++import { EmailJSResponseStatus } from './models/EmailJSResponseStatus';
+ import { init } from './methods/init/init';
+ import { send } from './methods/send/send';
+ import { sendForm } from './methods/sendForm/sendForm';
+-export type { EmailJSResponseStatus };
++export { EmailJSResponseStatus };
+ export { init, send, sendForm };
+ declare const _default: {
+     init: (userID: string, origin?: string) => void;
+diff --git a/node_modules/emailjs-com/es/methods/send/send.d.ts b/node_modules/emailjs-com/es/methods/send/send.d.ts
+index a33827f..2ea7898 100644
+--- a/node_modules/emailjs-com/es/methods/send/send.d.ts
++++ b/node_modules/emailjs-com/es/methods/send/send.d.ts
+@@ -1,4 +1,4 @@
+-import type { EmailJSResponseStatus } from '../../models/EmailJSResponseStatus';
++import { EmailJSResponseStatus } from '../../models/EmailJSResponseStatus';
+ /**
+  * Send a template to the specific EmailJS service
+  * @param {string} serviceID - the EmailJS service ID
+diff --git a/node_modules/emailjs-com/es/methods/sendForm/sendForm.d.ts b/node_modules/emailjs-com/es/methods/sendForm/sendForm.d.ts
+index 3d0c034..494329b 100644
+--- a/node_modules/emailjs-com/es/methods/sendForm/sendForm.d.ts
++++ b/node_modules/emailjs-com/es/methods/sendForm/sendForm.d.ts
+@@ -1,4 +1,4 @@
+-import type { EmailJSResponseStatus } from '../../models/EmailJSResponseStatus';
++import { EmailJSResponseStatus } from '../../models/EmailJSResponseStatus';
+ /**
+  * Send a form the specific EmailJS service
+  * @param {string} serviceID - the EmailJS service ID
