@@ -10925,3 +10925,10 @@ input.ng-touched.ng-valid,
 textarea.ng-touched.ng-valid {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .ftco-section[_ngcontent-kan-c1] {
+    padding: 1rem;
+
+}
+}

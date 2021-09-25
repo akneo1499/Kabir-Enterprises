@@ -128,3 +128,139 @@ h5 {
 .new-flex p{
   text-align: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+              .dashboard-container {
+                position: relative;
+              }
+              .dashboard-image {
+                height: 90vh;
+                background: linear-gradient(rgb(8, 47, 99), rgba(3, 129, 145, 0.8)),
+                  url("../../assets/p1.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 3rem;
+              }
+              
+              .header-text {
+                font-size: 48px;
+                color: white;
+                padding-bottom: 20px;
+                font-weight: 600;
+              }
+              
+              .header-subtitle {
+                font-size: 24px;
+                color: white;
+              }
+              
+              h3 {
+                font-size: 28px;
+                font-weight: 800;
+                background: linear-gradient(rgb(4, 139, 60), rgba(6, 47, 94, 0.8));
+                margin: 5% auto;
+                padding: 8px 30px;
+                color: #e6e6e6;
+                border-top: 3px solid #e5e5e5;
+                border-bottom: 3px solid #e5e5e5;
+                width: max-content;
+                border-radius: 5px;
+                box-shadow: 0 0 20px 1px #888;
+              }
+              
+              h5 {
+                font-size: 24px;
+                font-weight: 600;
+                margin: 10px auto;
+                width: max-content;
+              }
+              
+              .common-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 5%;
+                text-align: center;
+              
+              }
+              
+              .new-flex {
+                color: #666;
+                transition: color 0.5s ease-in-out;
+                background: #ddd;
+                padding: 7%;
+                margin-bottom: 5%;
+                border-radius: 2%;
+                min-height: 350px;
+                width: 100%;
+                flex-wrap: nowrap;
+              }
+              
+              .new-flex:hover {
+                color: rgb(0, 102, 255);
+              }
+              
+              .stats-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: row;
+                background: linear-gradient(rgb(4, 139, 60), rgba(6, 47, 94, 0.8)),
+                  url("../../assets/p14.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: cover;
+                padding: 4rem;
+                color: #ddd;
+              }
+              
+              .stats-items {
+                padding: 0px 4%;
+                border-right: 3px solid #ddd;
+                border-left: 3px solid #ddd;
+              }
+              
+              .stats-items p {
+                font-size: small;
+              }
+              
+              .stats-items h5 {
+                font-size: xx-large;
+              }
+              
+              .stats-items h5 span {
+                color: rgb(173, 255, 47);
+                font-size: 34px;
+              }
+              
+              .stats-items:first-child {
+                border-left: none;
+              }
+              
+              .stats-items:last-child {
+                border-right: none;
+              }
+              
+              .common-container img {
+                width: 100%;
+              }
+              
+              .common-container p{
+                text-align: justify;
+                text-justify: inter-word;
+              }
+              .new-flex p{
+                text-align: center;
+              }  
+
+}
