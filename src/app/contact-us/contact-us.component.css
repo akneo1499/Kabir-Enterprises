@@ -10677,7 +10677,9 @@ h5,
   padding: 3rem;
   /* background-image: url('../../assets/backtest3.jpg'); */
   background-image: url("https://source.unsplash.com/1920x1080/?apartment");
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   min-height: 91vh;
 }
 
@@ -10926,9 +10928,22 @@ textarea.ng-touched.ng-valid {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
 }
 
-@media only screen and (max-width: 600px) {
-  .ftco-section[_ngcontent-kan-c1] {
-    padding: 1rem;
+@media (max-width: 600px) {
+  .ftco-section{
+    padding: 2rem;
+  }
 
-}
+  .col-md-10{
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .form-group{
+      display: flex;
+      justify-content: center;
+  }
+
+  .contact-wrap{
+    margin-bottom: 2rem;
+  }
 }
