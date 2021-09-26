@@ -130,7 +130,7 @@ h5 {
 }
 
 .redirect-contact{
-  background: linear-gradient(rgba(47, 255, 89, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/p16.jpg);
+  background: linear-gradient(#0387f3, rgba(0, 0, 30, 0.9)), url(../../assets/p16.jpg);
   background-position: bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -150,9 +150,9 @@ h5 {
 
 .redirect-contact > button{
   font-weight: 600;
-  color: black;
+  color: #222;
   font-size: 16px;
-  background-color: rgb(173, 255, 47);
+  background-color: #ffdc07;
   padding: 8px 16px;
   margin-top: 10px;
   border-radius: 5px;
