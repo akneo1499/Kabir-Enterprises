@@ -129,6 +129,39 @@ h5 {
   text-align: center;
 }
 
+.redirect-contact{
+  background: linear-gradient(rgba(47, 255, 89, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/p16.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.redirect-contact > h4{
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.redirect-contact > button{
+  font-weight: 600;
+  color: black;
+  font-size: 16px;
+  background-color: rgb(173, 255, 47);
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(255 255 255 / 20%);
+  box-shadow: 0 0 20px 5px rgb(255 255 255 / 20%);
+
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
@@ -137,7 +170,7 @@ h5 {
               }
               .dashboard-image {
                 height: 90vh;
-                background: linear-gradient(rgb(8, 47, 99), rgba(3, 129, 145, 0.8)),
+                background: linear-gradient(rgb(8, 47, 99, 0.8), rgba(3, 129, 145, 0.8)),
                   url("../../assets/p1.jpg");
                 background-attachment: fixed;
                 background-repeat: no-repeat;
@@ -166,7 +199,7 @@ h5 {
                 font-size: 28px;
                 font-weight: 800;
                 background: linear-gradient(rgb(4, 139, 60), rgba(6, 47, 94, 0.8));
-                margin: 5% auto;
+                margin: 10% auto;
                 padding: 8px 30px;
                 color: #e6e6e6;
                 border-top: 3px solid #e5e5e5;
